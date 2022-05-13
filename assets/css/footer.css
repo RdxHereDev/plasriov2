@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E94646;
+}
+
+address {
+    z-index: 1;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}

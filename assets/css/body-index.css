@@ -1,0 +1,160 @@
+/* main {
+    display: grid;
+    grid-template-areas:
+        "onda-a onda-a"
+        "texto imagem"
+        "onda-v onda-v";
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 20vh 60vh 20vh;
+} */
+
+
+.onda-azul {
+    position: relative;
+}
+.custom-shape-divider-top-1652419411 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1652419411 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 220px;
+}
+
+.custom-shape-divider-top-1652419411 .shape-fill {
+    fill: #77B2FE;
+}
+
+.container {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.conteudo{
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    /* background-color: #fffee1; */
+}
+
+/* .conteudo:nth-child(2) {
+    background-color: #d0eaff;
+}
+
+.conteudo:nth-child(3) {
+    background-color: #fce8f4;
+} */
+
+
+.texto {
+    z-index: 3;
+    width: 40%;
+    margin-left: 6rem;
+    margin-bottom: 8rem;
+}
+
+.texto h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.texto p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.img-section {
+    height: 90vh;
+}
+
+
+/* .onda-vermelha {
+    position: relative;
+} */
+
+.custom-shape-divider-bottom-1652421276 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1652421276 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-bottom-1652421276 .shape-fill {
+    fill: #E94646;
+}
+
+@media (max-width: 830px) {
+
+
+    .cabecalho {
+        position: unset;
+    }
+
+    .onda-azul {
+        visibility: hidden;
+    }
+
+    .container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        transform: none !important;
+    }
+
+    .custom-shape-divider-bottom-1652421276 {
+        align-self: flex-end;
+    }
+
+    footer {
+        position: absolute;
+    }
+}
+
+@media (max-width: 805px) {
+    body {
+    
+        align-items: center;
+    }
+
+    .container {
+        top: 2rem;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .texto {
+        width: 80%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
