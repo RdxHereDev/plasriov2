@@ -40,7 +40,7 @@
     left: 0;
     width: 100%;
     display: flex;
-    scroll-behavior: smooth;
+    /* scroll-snap-type: x mandatory; */
 }
 
 .conteudo{
@@ -50,6 +50,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 4rem;
+    /* scroll-snap-align: start; */
     /* background-color: #fffee1; */
 }
 
