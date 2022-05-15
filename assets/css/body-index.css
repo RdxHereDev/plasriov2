@@ -121,10 +121,11 @@
     body {
         align-items: center;
     }
-
-    .container {
-        top: 2rem;
+    
+    .conteudo:nth-child(1) {
+        margin-top: 8rem;
     }
+
 
     .conteudo {
         flex-direction: column;
