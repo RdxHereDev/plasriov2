@@ -8,7 +8,8 @@ footer {
     background-color: #E94646;
 }
 
-address {
+.link-tel {
+    text-decoration: none;
     z-index: 2;
     font-size: 1.2rem;
     font-weight: 700;

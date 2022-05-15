@@ -52,19 +52,21 @@
     font-size: 110%; 
 }
 
+
+@media (max-width: 960px) {
+    .cabecalho {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 634px) {
 
-    .cabecalho {
-        position: unset;
-        
-    }
 
     .logo {
         width: 10rem;
         height: 4rem;
         margin-left: 0;
     }
-    
 
 
     .logoenav {

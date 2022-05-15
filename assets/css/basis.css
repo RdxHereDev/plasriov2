@@ -15,3 +15,33 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 }
+
+/* possivel main da index
+    main {
+    display: grid;
+    grid-template-areas:
+        "onda-a onda-a"
+        "texto imagem"
+        "onda-v onda-v";
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 20vh 60vh 20vh;
+} */
+
+
+@media (max-width: 960px) {
+    html {
+        font-size: 16px;
+        overflow-x: hidden;
+        min-height: min-content;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    
+    body {
+        align-items: center;
+    }
+}

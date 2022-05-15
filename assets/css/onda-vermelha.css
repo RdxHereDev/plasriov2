@@ -1,0 +1,23 @@
+/* .onda-vermelha {
+    position: relative;
+} */
+
+.custom-shape-divider-bottom-1652421276 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1652421276 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-bottom-1652421276 .shape-fill {
+    fill: #E94646;
+}

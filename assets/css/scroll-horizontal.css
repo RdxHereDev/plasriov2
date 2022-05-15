@@ -1,0 +1,59 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    /* scroll-snap-type: x mandatory; */
+}
+
+.conteudo{
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    /* scroll-snap-align: start; */
+    /* background-color: #fffee1; */
+}
+
+/* .conteudo:nth-child(2) {
+    background-color: #d0eaff;
+}
+
+.conteudo:nth-child(3) {
+    background-color: #fce8f4;
+} */
+
+
+
+#empresas h1 {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 960px) {
+
+    .container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        transform: none !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .conteudo:nth-child(1) {
+        margin-top: 8rem;
+    }
+
+
+    .conteudo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
