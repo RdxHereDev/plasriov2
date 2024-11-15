@@ -1,58 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cute <3</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/img-section.css">
-    <link rel="stylesheet" href="assets/css/style-text.css">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/basis.css">
-    <link rel="stylesheet" href="assets/css/scroll-horizontal.css">
-    <link rel="stylesheet" href="assets/css/onda-vermelha.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link
-        href="https://fonts.gogleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <title>CraftMatrix Shop</title>
+    <!-- Favicon using Imgur link -->
+    <link rel="icon" type="image/png" href="https://i.imgur.com/6Q7Dw4l.png">
+    <link rel="stylesheet" href="media/style.css">
+    <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
-    <header class="cabecalho">
-        <div class="logoenav">
-            <a href="#"><img class="logo" src="assets/img/Ddwl.png" alt="logo da plasrio" /></a>
-            <nav class="menu">
-                <ul class="menu-lista">
-                    <li class="menu-lista-item ativo">
-                        <a class="menu-lista-item-link" href="#">Home</a>
-                    </li>
-                    <li class="menu-lista-item">
-                        <a class="menu-lista-item-link" href="sobre.html">Announcements</a>
-                    </li>
-                    <li class="menu-lista-item">
-                        <a class="menu-lista-item-link" href="https://discord.gg/XK3XCcT3wD">Join Discord Server</a>
-                    </li>
-                </ul>
-            </nav>
+    <nav class="desktop_navbar">
+        <!-- Main Logo using Imgur link -->
+        <a href="#"><img class="desktop_navbar_logo_img" src="https://i.imgur.com/6Q7Dw4l.png" alt="CraftMatrix Logo"></a>
+        <a href="#products" class="desktop_navbar_link">Products</a>
+        <a href="#categories" class="desktop_navbar_link">Categories</a>
+        <a href="#about" class="desktop_navbar_link">About Us</a>
+        <a href="#cart" class="desktop_navbar_link">Cart</a>
+    </nav>
+
+    <header class="hero_section">
+        <div class="hero_text">
+            <h1>Welcome to CraftMatrix Shop</h1>
+            <p>Find the best Minecraft maps for your gameplay.</p>
+            <a href="#products" class="shop_now_button">Shop Now</a>
         </div>
     </header>
 
-    <main>
+    <section id="products" class="products_section">
+        <h2>Our Products</h2>
+        <div class="product_grid">
+            <div class="product_item">
+                <img src="media/product1.png" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of Product 1</p>
+                <button class="buy_button">Buy Now</button>
+            </div>
+            <div class="product_item">
+                <img src="media/product2.png" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Description of Product 2</p>
+                <button class="buy_button">Buy Now</button>
+            </div>
+            <!-- Add more product items as needed -->
+        </div>
+    </section>
 
-        <div class="container" skrollrBody='skrollr-body' data-smooth-scrolling:on data-0="transform: translateX(0%);"
-            data-960="transform:translate(-200%);">
-            <section class="conteudo">
-                <div class="texto">
-                    <h1 class="titulo">Website Made For CUTE <3</h1>
-                    <p>This Website Is Made For CUTE <3 Discord Server And Made By RdxHere Aka Legitness
-                    </p>
-                </div>
-                <img class="img-section" id="criancas" src="assets/img/Screenshot_20241113-205556_Chrome.png" alt="">
-            </section>
+    <section id="categories" class="categories_section">
+        <h2>Categories</h2>
+        <div class="categories_grid">
+            <div class="category_item">
+                <h3>Adventure Maps</h3>
+                <p>Explore thrilling adventures.</p>
+            </div>
+            <div class="category_item">
+                <h3>PvP Maps</h3>
+                <p>Engage in epic battles.</p>
+            </div>
+            <!-- Add more categories as needed -->
+        </div>
+    </section>
 
+    <section id="about" class="about_section">
+        <h2>About Us</h2>
+        <p>CraftMatrix is dedicated to providing high-quality Minecraft maps that cater to various playstyles and preferences. Join us to explore a range of immersive and unique maps.</p>
+    </section>
+
+    <section id="cart" class="cart_section">
+        <h2>Your Cart</h2>
+        <p>Your selected items will appear here.</p>
+    </section>
+
+    <footer class="footer_section">
+        <p>© 2024 CraftMatrix. All rights reserved.</p>
+        <p>Designed by RdxHere</p>
+    </footer>
 </body>
-</body>
-
 </html>
